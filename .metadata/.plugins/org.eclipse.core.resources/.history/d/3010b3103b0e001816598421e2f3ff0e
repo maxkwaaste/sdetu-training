@@ -1,0 +1,22 @@
+package oop;
+
+public class bankaccountapp {
+	
+	public static void main(String[] args) {
+		
+		
+		bankaccount acc1 = new bankaccount();
+		acc1.accountnumber = "0123456";
+		
+		bankaccount acc2 = new bankaccount("Checking Account");
+		acc2.accountnumber = "0123456";
+		
+		bankaccount acc3 = new bankaccount("savings account", 999);
+		acc3.accountnumber = "0123456";
+				
+		System.out.println(acc1.routingnumber);
+		System.out.println(acc2.routingnumber);
+		System.out.println(acc3.routingnumber);
+	}
+
+}

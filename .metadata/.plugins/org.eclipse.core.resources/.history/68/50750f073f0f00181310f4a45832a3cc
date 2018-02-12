@@ -1,0 +1,22 @@
+package Labs;
+
+class Student {
+	// Properties
+	private String name;
+	private String ssn;
+	private String email;
+	
+	
+	public Student(String name, String ssn)  {
+		this.name = name;
+		this.ssn = ssn;
+		setEmail();
+	}
+	private void setEmail() {
+		email = name + "@student.hu.nl";
+		System.out.println("your email: " + email);
+	}
+	
+
+
+}

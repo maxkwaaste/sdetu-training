@@ -1,0 +1,15 @@
+package oop;
+
+public class LoanAccount implements IRate{
+	
+	@override
+	public void setRate() {
+		System.out.println("Rate");
+	}
+	
+	@override
+	public void increaseRate() {
+		System.out.println("Increase rate");
+	}
+
+}

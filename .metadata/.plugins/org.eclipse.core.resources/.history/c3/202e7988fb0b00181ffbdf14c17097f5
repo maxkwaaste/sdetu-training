@@ -1,0 +1,14 @@
+package basics;
+
+public class Cities {
+ 
+	public static void main (String[] args) {
+		//Declare an array
+		String[] cities = {"New York", "San Francisco", "Miami", "Dallas"};
+		System.out.println(cities[2]);
+		
+		
+	}
+	
+	
+}

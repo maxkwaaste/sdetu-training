@@ -1,0 +1,37 @@
+package oop;
+
+public class bankaccount {
+	
+	String accountnumber;
+	String routingnumber;
+	String name;
+	String ssn;
+	String accounttype;
+	
+	bankaccount() {
+		System.out.println("NEW ACCOUNT CREATED");
+	bankaccount(String accounttype)  {
+		System.out.println("NEW ACCOUNT CREATED: "+ accounttype);
+	}
+	}
+	
+	void deposit()  {
+		
+		
+	}
+	
+	void withdraw()  {
+		
+		
+	}
+	
+	void balance()	{
+		
+		
+	}
+	void getStatus() {
+		
+		
+	}
+	}
+

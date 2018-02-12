@@ -1,0 +1,42 @@
+package Labs;
+
+public class Lab2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student stu1 = new Student("Sabrina","5441513");
+		Student stu2 = new Student("Max","4161345");
+	}
+}
+class Student {
+	// Properties
+	private static int ID=1000;
+	private String UserID;
+	private String name;
+	private String ssn;
+	private String email;
+	
+	// what happens when new student gets created
+	public Student(String name, String ssn)  {
+		ID++;
+		this.name = name;
+		this.ssn = ssn;
+		setUserID();
+		setEmail();
+	}
+	private void setEmail() {
+		email = name.toLowerCase() + "." + ID + "@student.hu.nl";
+		System.out.println("your email: " + email);
+	}
+	private void setUserID() {
+		int max = 9000;
+		int min = 1000;
+		int randNum = (int) (Math.random() * (max-min));
+		randNum = randNum + min;
+		UserID = ID + "" + randNum + ssn.substring(6);
+		System.out.println("Your user ID: " + UserID);
+	}
+	
+}
+	
+

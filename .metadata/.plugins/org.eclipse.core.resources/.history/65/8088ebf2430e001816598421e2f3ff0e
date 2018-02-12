@@ -1,0 +1,29 @@
+package oop;
+
+public class bankaccountapp {
+	
+	public static void main(String[] args) {
+		
+		
+		bankaccount acc1 = new bankaccount();
+		acc1.accountnumber = "0123456";
+		
+		bankaccount acc2 = new bankaccount("Checking Account");
+		acc2.accountnumber = "0123456";
+		
+		bankaccount acc3 = new bankaccount("savings account", 1000);
+		acc3.accountnumber = "0123456";
+		acc3.checkbalance();
+
+		//Demo for inheritance
+		CDAccount cd1= new CDAccount();
+		cd1.balance = 3000;
+		cd1.name	=	Juan;
+		cd1.accounttype	=	"CD Account";
+		System.out.println(cd1.toString());
+		
+		
+		
+	}
+
+}

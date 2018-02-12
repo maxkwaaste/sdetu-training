@@ -1,0 +1,21 @@
+package oop;
+
+public class demo {
+
+	public static void main(String[] args)	{
+		//Person-
+		
+		//attributes, variables, descriptors
+		String name = "Joe";
+		String email = "Joe@testemail.com";
+		String phone = "0619899851";
+		
+		// Activity, action, behavior
+		System.out.println(name + " is walking");
+		System.out.println(name + " is eating");
+			
+	}
+	
+	
+	
+}

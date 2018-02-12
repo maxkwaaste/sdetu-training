@@ -1,0 +1,20 @@
+package basics;
+
+public class Days {
+	public static void main (String[] args)	{
+		// Execute a different block based on the value of completion
+		
+		String dayOfWeek = "Tuesday";
+				
+		switch (dayOfWeek) 	{
+		case "Monday" : System.out.println("Today is Monday");
+		case "Tuesday" : System.out.println("Today is Tuesday");
+		case "Monday" : System.out.println("Today is Monday");
+		case "Monday" : System.out.println("Today is Monday");
+		case "Monday" : System.out.println("Today is Monday");
+		case "Monday" : System.out.println("Today is Monday");
+		case "Monday" : System.out.println("Today is Monday");
+		}
+		
+	}
+}
